@@ -213,15 +213,6 @@ coroutine.resume(coroutine.create(function()
     end) 
 end))
 
-for _,v in pairs(workspace.Mobs:GetChildren()) do
-    if v.Name == "Damage Egg" or v.Name == "Egg" then
-        v:Destroy()
-    end
-end
-coroutine.resume(coroutine.create(function()
-farmraid()
-end))
-
 game.Players.LocalPlayer.PlayerGui.ChildAdded:Connect(function(v)
     if v.Name == "Thaw" then
         local button = v:WaitForChild('TextButton')
