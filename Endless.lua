@@ -32,7 +32,6 @@ end
 
 function farmraid()
     task.wait()
-    if getTypeOfServer() == "Raid" then -- make sure its a raid 
         for _,v in pairs(game.Workspace.misc:GetChildren()) do
             if v:FindFirstChild('Beam') then
                 game.Players.LocalPlayer.Character:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(23277, 2206, 376)
