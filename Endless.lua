@@ -59,33 +59,7 @@ function farmraid()
                     end
                 end
             end
-        end
-        if workspace.misc:FindFirstChild('Blackhole') then
-            local s,e = pcall(function()
-                repeat
-                    task.wait()
-                    game.Players.LocalPlayer.Character:WaitForChild('HumanoidRootPart').CFrame = CFrame.new(100,500,100)
-                until not workspace.misc.Blackhole:IsDescendantOf(workspace.misc)
-            end)
-            if e then
-                print(s)
-            end
-        end
-        if workspace.Mobs:FindFirstChild('Hive Guard') then
-            for _,v in pairs(workspace.Mobs:GetChildren()) do
-                if v.Name == "Hive Guard" then
-                    pcall(function()
-                        if not workspace.Mobs:FindFirstChild('Hive Queen') then
-                            if v.Humanoid.WalkToPoint == Vector3.new(0,0,0) then
-                                swing = true
-                                repeat
-                                    game.Players.LocalPlayer.Character:WaitForChild('HumanoidRootPart').CFrame = v.HumanoidRootPart.CFrame + Vector3.new(0,0,7)
-                                    lookAt(game.Players.LocalPlayer.Character, v.HumanoidRootPart)
-                                    task.wait()
-                                until abort or getgenv().adaffvca or v.Humanoid.WalkToPoint ~= Vector3.new(0,0,0) or not v:IsDescendantOf(workspace.Mobs)
-                                swing = false
-                            end
-                        end
+        end       
                     end)
                 end
             end
