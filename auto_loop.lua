@@ -547,7 +547,7 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("GenericEvent"):FireServer(unpack(args))
 wait(1)
 switchGrass("un")
-wait(7)
+wait(5)
 args = {
     [1] = "grassJump"
 }
@@ -990,7 +990,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("GenericEvent"):FireServer(unpack(args))
-wait(1)
+wait(7)
 args = {
     [1] = "supernova"
 }
