@@ -165,7 +165,7 @@ args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
-wait(1)
+wait(10)
 local args = {
     [1] = {
         ["id"] = "mapTeleport",
@@ -177,7 +177,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gener
 
 switchGrass("anti")
 
-wait(10)
+wait(5)
 args = {
     [1] = "grassskip"
 }
@@ -190,7 +190,7 @@ args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
 
-wait(3)
+wait(5)
 
 args = {
     [1] = "funify"
@@ -262,7 +262,7 @@ args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
-wait(1)
+wait(3)
 local args = {
     [1] = {
         ["id"] = "mapTeleport",
