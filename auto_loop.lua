@@ -220,7 +220,7 @@ args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
-wait(1)
+wait(2)
 args = {
     [1] = {
         ["id"] = "mapTeleport",
@@ -244,7 +244,7 @@ args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("GenericEvent"):FireServer(unpack(args))
-wait(2)
+wait(15)
 args = {
     [1] = {
         ["id"] = "mapTeleport",
@@ -345,7 +345,7 @@ wait(2)
 args = {
     [1] = {
         ["id"] = "mapTeleport",
-        ["teleId"] = "dark"
+        ["teleId"] = "space"
     }
 }
 
