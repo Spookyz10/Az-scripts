@@ -83,7 +83,7 @@ end
 local args = {}
 
 switchGrass("grass")
-
+wait(4)
 args = {
     [1] = "prestige"
 }
