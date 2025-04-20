@@ -1,3 +1,4 @@
+print("started")
 local running = false
 local currentGrassType = nil
 
