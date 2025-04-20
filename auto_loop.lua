@@ -560,7 +560,7 @@ args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
 wait(1)
 switchGrass("planet")
-wait(10)
+wait(20)
 args = {
     [1] = "planetaryTrial"
 }
@@ -576,7 +576,7 @@ args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
 wait(1)
 switchGrass("planet")
-wait(10)
+wait(20)
 args = {
     [1] = "planetaryTrial"
 }
@@ -597,37 +597,37 @@ args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
-wait(3)
-args = {
-    [1] = "astralPrestige"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
-wait(3)
-args = {
-    [1] = "astralPrestige"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
-wait(3)
-args = {
-    [1] = "astralPrestige"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
-wait(3)
-args = {
-    [1] = "astralPrestige"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
-wait(3)
+wait(2)
 args = {
     [1] = "astralPrestige"
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
 wait(2)
+args = {
+    [1] = "astralPrestige"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
+wait(2)
+args = {
+    [1] = "astralPrestige"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
+wait(2)
+args = {
+    [1] = "astralPrestige"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
+wait(2)
+args = {
+    [1] = "astralPrestige"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
+wait(1)
 args = {
     [1] = {
         ["id"] = "toggleLunar",
@@ -718,7 +718,7 @@ args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TriggerReset"):FireServer(unpack(args))
 wait(1)
 switchGrass("planet")
-wait(10)
+wait(20)
 args = {
     [1] = "planetaryTrial"
 }
@@ -771,7 +771,7 @@ args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("GenericEvent"):FireServer(unpack(args))
-wait(3)
+wait(10)
 args = {
     [1] = "grassJump"
 }
